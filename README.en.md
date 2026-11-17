@@ -1,5 +1,7 @@
 # Electro-Dragon Drill: 1D Rotating LiDAR Scanner
 > Project Introduction: Electro-Dragon Drill is a continuous rotating one-dimensional laser scanning radar based on ESP32-C3 Super Mini. A 6.5mm 4-channel slip ring is adopted to avoid wire tangling for the rotating TOF sensor. An AS5600 magnetic encoder measures the shaft angle, and a first-order Fourier harmonic fitting algorithm compensates angle error caused by magnet eccentricity. The VL53L0X TOF ranging module rotates synchronously with the scanning head, samples angle-distance pairs and outputs polar point clouds for 2D contour plotting on a host computer.
+>
+![配图1](7fb08861715603f50318af7ce826e6d623766227.png)
 
 ## Hardware List
 | Component | Specification | Description |
